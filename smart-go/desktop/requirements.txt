@@ -1,0 +1,2 @@
+-e ./vendor/katrain
+websockets==17.4

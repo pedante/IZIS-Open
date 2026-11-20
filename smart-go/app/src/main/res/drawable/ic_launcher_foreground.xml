@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Go Board Grid Lines -->
+    <path
+        android:strokeColor="#55D4AF37"
+        android:strokeWidth="1.2"
+        android:pathData="M24,42 L84,42 M24,62 L84,62 M24,82 L84,82 M34,30 L34,94 M54,30 L54,94 M74,30 L74,94" />
+
+    <!-- Hoshi Points -->
+    <path
+        android:fillColor="#66D4AF37"
+        android:pathData="M34,42m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0 M74,42m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0 M34,82m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0 M74,82m-1.5,0a1.5,1.5 0 1,0 3,0a1.5,1.5 0 1,0 -3,0" />
+
+    <!-- Wi-Fi / TCP Broadcast Waves -->
+    <path
+        android:strokeColor="#992ECC71"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M44,40 A14,14 0 0,1 64,40" />
+    <path
+        android:strokeColor="#CC2ECC71"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"
+        android:pathData="M39,34 A21,21 0 0,1 69,34" />
+    <path
+        android:strokeColor="#FF2ECC71"
+        android:strokeWidth="2.2"
+        android:strokeLineCap="round"
+        android:pathData="M34,28 A28,28 0 0,1 74,28" />
+
+    <!-- Black Stone (Intersection 34, 62) -->
+    <path
+        android:fillColor="#212429"
+        android:strokeColor="#454A54"
+        android:strokeWidth="0.8"
+        android:pathData="M34,62m-9,0a9,9 0 1,0 18,0a9,9 0 1,0 -18,0" />
+
+    <!-- White Stone (Intersection 74, 62) -->
+    <path
+        android:fillColor="#F4F6F8"
+        android:strokeColor="#B0BEC5"
+        android:strokeWidth="0.8"
+        android:pathData="M74,62m-9,0a9,9 0 1,0 18,0a9,9 0 1,0 -18,0" />
+
+    <!-- Tengen Glowing Green LED Core (Intersection 54, 62) -->
+    <path
+        android:fillColor="#552ECC71"
+        android:pathData="M54,62m-8,0a8,8 0 1,0 16,0a8,8 0 1,0 -16,0" />
+    <path
+        android:fillColor="#2ECC71"
+        android:pathData="M54,62m-4,0a4,4 0 1,0 8,0a4,4 0 1,0 -8,0" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,62m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+</vector>
